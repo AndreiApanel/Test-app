@@ -6,7 +6,6 @@ class AppMain extends Component {
 		return (
 			<div className="app-main">
 				<h1>Everything You Love About Coffee</h1>
-				<p></p>
 			</div>
 		);
 	}
