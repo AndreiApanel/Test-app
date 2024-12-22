@@ -1,22 +1,26 @@
 .app {
 	&-header {
-	width:1440px;
-	height:640px;
-	background-image:url("../pictures/Main bg.jpg");
-}
+		width: 1440px;
+		height: 640px;
+		background-image: url('../pictures/Main bg.jpg');
+	}
 	&-menu {
-	display: flex;
-	justify-content: space-between;
-}
+		ul {
+			display: flex;
+			justify-content: space-between;
+			li {
+				margin: 0 8px;
+			}
+		}
+	}
 
 	&-title {
-	text-align: center;
-	margin:181px auto;
-	font-family: "Merienda", sans-serif;
-	font-weight: 700;
-	font-size: 40px;
-	color: #fff;
-	text-shadow:0 4px 4px rgba(0, 0, 0, 0.25);	
+		text-align: center;
+		margin: 181px auto;
+		font-family: 'Merienda', sans-serif;
+		font-weight: 700;
+		font-size: 40px;
+		color: #fff;
+		text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	}
 }
-}
-
