@@ -1,15 +1,15 @@
 .app {
-&-header {
+	&-header {
 	width:1440px;
 	height:640px;
 	background-image:url("../pictures/Main bg.jpg");
 }
-&-menu {
+	&-menu {
 	display: flex;
 	justify-content: space-between;
 }
 
-&-title {
+	&-title {
 	text-align: center;
 	margin:181px auto;
 	font-family: "Merienda", sans-serif;
